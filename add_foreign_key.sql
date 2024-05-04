@@ -1,0 +1,2 @@
+alter table employee add constraint fk_dept foreign key(dept_code) references department(dept_code);
+alter table employee add constraint fk_des foreign key(desig_code) references designation(desig_code);
